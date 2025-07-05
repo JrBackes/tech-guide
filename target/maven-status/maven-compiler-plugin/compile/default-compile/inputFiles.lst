@@ -1,0 +1,15 @@
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/repository/TicketRepository.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/repository/UserRepository.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/entity/Department.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/TicketSystemApplication.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/service/DTOConverterService.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/dto/UserDTO.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/config/DataInitializer.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/dto/TicketDTO.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/controller/TicketController.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/entity/User.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/repository/DepartmentRepository.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/controller/DepartmentController.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/dto/DepartmentDTO.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/entity/Ticket.java
+/Users/juniorbackes/tech-guide-1/src/main/java/com/techguide/ticketsystem/controller/UserController.java

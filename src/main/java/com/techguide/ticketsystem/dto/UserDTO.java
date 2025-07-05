@@ -1,0 +1,60 @@
+package com.techguide.ticketsystem.dto;
+
+public class UserDTO {
+    private Long id;
+    private String name;
+    private String email;
+    private DepartmentDTO department;
+    private Integer roleId;
+
+    public UserDTO() {}
+
+    public UserDTO(Long id, String name, String email, DepartmentDTO department, Integer roleId) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.department = department;
+        this.roleId = roleId;
+    }
+
+    // Getters e Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public DepartmentDTO getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(DepartmentDTO department) {
+        this.department = department;
+    }
+
+    public Integer getRoleId() {
+        return roleId;
+    }
+
+    public void setRoleId(Integer roleId) {
+        this.roleId = roleId;
+    }
+}

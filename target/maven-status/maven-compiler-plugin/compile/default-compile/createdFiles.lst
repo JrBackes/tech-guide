@@ -1,0 +1,15 @@
+com/techguide/ticketsystem/dto/DepartmentDTO.class
+com/techguide/ticketsystem/entity/Department.class
+com/techguide/ticketsystem/repository/UserRepository.class
+com/techguide/ticketsystem/dto/TicketDTO.class
+com/techguide/ticketsystem/repository/DepartmentRepository.class
+com/techguide/ticketsystem/entity/Ticket.class
+com/techguide/ticketsystem/TicketSystemApplication.class
+com/techguide/ticketsystem/entity/User.class
+com/techguide/ticketsystem/config/DataInitializer.class
+com/techguide/ticketsystem/controller/UserController.class
+com/techguide/ticketsystem/repository/TicketRepository.class
+com/techguide/ticketsystem/controller/TicketController.class
+com/techguide/ticketsystem/controller/DepartmentController.class
+com/techguide/ticketsystem/dto/UserDTO.class
+com/techguide/ticketsystem/service/DTOConverterService.class

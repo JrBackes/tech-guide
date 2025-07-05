@@ -1,24 +1,15 @@
-import Department.Department;
-import Ticket.Ticket;
-import User.User;
+// Este arquivo foi convertido para Spring Boot
+// A aplicação principal agora está em: src/main/java/com/techguide/ticketsystem/TicketSystemApplication.java
+// Para executar a aplicação Spring Boot, use: mvn spring-boot:run
 
 public class Main {
     public static void main(String[] args) {
-
-        Department department = new Department("Tecnologia", 1, "TEC");
-        
-        User junior = new User("Junior Backes", "junior.backes@hotmail.com", "password123", department);
-    
-        Ticket ticket = new Ticket(1, "Problema de Login", "Não consigo acessar minha conta", junior, "Aberto");
-
-        System.out.println(ticket.getCompId());
-
-        Department department2 = new Department("Atendimento", 2, "ATD");
-        
-        User junior2 = new User("Junior Backes", "junior.backes@hotmail.com", "password123", department2);
-    
-        Ticket ticket2 = new Ticket(2, "Problema de Login", "Não consigo acessar minha conta", junior2, "Aberto");
-
-        System.out.println(ticket2.getCompId());
+        System.out.println("=== PROJETO CONVERTIDO PARA SPRING BOOT ===");
+        System.out.println("Para executar a aplicação:");
+        System.out.println("1. mvn clean install");
+        System.out.println("2. mvn spring-boot:run");
+        System.out.println("3. Acesse: http://localhost:8080");
+        System.out.println("4. Console H2: http://localhost:8080/h2-console");
+        System.out.println("===========================================");
     }
 }
