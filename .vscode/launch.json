@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HelpdeskApplication",
+            "request": "launch",
+            "mainClass": "br.com.bibliotecacatolica.helpdesk.HelpdeskApplication",
+            "projectName": "helpdesk"
+        },
+        {
+            "type": "java",
+            "name": "HelpdeskApplication",
+            "request": "launch",
+            "mainClass": "br.bibliotecacatolica.helpdesk.HelpdeskApplication",
+            "projectName": "helpdesk"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
