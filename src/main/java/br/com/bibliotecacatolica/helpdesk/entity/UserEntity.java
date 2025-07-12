@@ -1,11 +1,22 @@
 package br.com.bibliotecacatolica.helpdesk.entity;
 import java.util.Objects;
 
+import org.springframework.beans.BeanUtils;
+import org.springframework.context.annotation.Bean;
+
+import br.com.bibliotecacatolica.helpdesk.dto.UserDTO;
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "users")
 public class UserEntity {
+
+    public UserEntity() {
+    }
+
+    public UserEntity(UserDTO user) {
+        BeanUtils.copyProperties(user, this);        
+    }
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
